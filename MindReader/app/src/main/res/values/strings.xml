@@ -7,4 +7,35 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_desc">DescActivity</string>
 
+    <string name="First_picture">밝은 명랑함 속의 불안</string>
+    <string name="Second_picture">절대자의 대한 사랑</string>
+    <string name="Third_picture">허기</string>
+
+    <string name="First_explanation">즐거운 일, 기쁜 일이 있어 매우 밝은 기분이지만, 마음에 걸리는 일과 해소되지 않는
+
+        근심거리도 있어서 명랑할 수만은 없는 상태다.</string>
+
+    <string name="Second_explanation">`절대`적으로 믿는 것-종교, 회사, 거래처, 고객, 희망학교-이 자신으로부터 멀어져
+
+        가는 것은 아닐까 하는 불안, 자신이 하는 행위가 실패하는 것은 아닐까 하는 근심에서
+
+        그 `절대자`에게 강렬한 사랑을 받고 싶어 하는 바람이 `절대자`를 사랑하는 행위로
+
+        나타나 있는 상태. 이 색깔이 수도승, 수녀의 옷 색깔로 쓰이고 있는 것은 신에 대한
+
+        외경과 경건의 기도에 부응코자 하는 데서 나온 듯하다. 마음속에 있는 것이 색깔로
+
+        되어 표면으로 나타난 전형적인 예라고 하겠다. 장례를 지낼 때도 이 색깔을 쓰는데,
+
+        그것은 죽은 자에게 바치는 산 사람의 기도와 정화의 소원을 담은 뜻이라고 생각할 수
+
+        있다.</string>
+    <string name="Third_explanation">지금 몹시 허기가 졌거나 목이 말라 물을 마시고 싶은 상태다. 혹은 다이어트에
+
+        신경이 쓰여 자연식품에만 생각이 가 있을 수도 있다. 어린이의 편식을 걱정하거나
+
+        저녁 준비 할 것으로 머리가 복잡해 있지는 않은지? 식사를 끝낸 직후에도 이 색깔을
+
+        선택하는데, 음식에 대한 관심이 높아져 있기 때문이다.</string>
+
 </resources>
