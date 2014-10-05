@@ -1,16 +1,140 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.aabf.purdue.mindreader.DescActivity">
+<!-- Scroll View -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="20dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        tools:context=".MyActivity">
 
-</RelativeLayout>
+        <!-- The result of the first selected picture -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+            <!-- The first circle -->
+            <View
+                android:id="@+id/image1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circle"
+                />
+            <!-- The first picture's title -->
+            <TextView
+                android:id="@+id/title1"
+                android:text="@string/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image1"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textSize="10pt"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            >
+            <!-- The first picture's explanation -->
+            <TextView
+                android:id="@+id/desc1"
+                android:text="@string/desc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="7pt"
+                />
+        </RelativeLayout>
+
+        <!-- The result of the second selected picture -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+            <!-- The second circle -->
+            <View
+                android:id="@+id/image2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circle"
+                />
+            <!-- The second picture's title -->
+            <TextView
+                android:id="@+id/title2"
+                android:text="@string/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image2"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textSize="10pt"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            >
+            <!-- The second picture's explanation -->
+            <TextView
+                android:id="@+id/desc2"
+                android:text="@string/desc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="7pt"
+                />
+        </RelativeLayout>
+
+        <!-- The result of the third selected picture -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+            <!-- The third circle -->
+            <View
+                android:id="@+id/image3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circle"
+                />
+            <!-- The third picture's title -->
+            <TextView
+                android:id="@+id/title3"
+                android:text="@string/title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image3"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textSize="10pt"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <!-- The third picture's description -->
+            <TextView
+                android:id="@+id/desc3"
+                android:text="@string/desc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="7pt"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
